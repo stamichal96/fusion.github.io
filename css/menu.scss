@@ -1,0 +1,45 @@
+menu {
+    position: absolute;
+    right: -17%;
+    top: 0;
+    width: 17%;
+    height: 100%;
+    background: linear-gradient(90deg, #181818, #F2F2F2 5%);
+    z-index: 1;
+    transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#menu-options {
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu-logo-section {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        font-weight: 700;
+        font-style: italic;
+        font-size: 30px;
+        cursor: default;
+    }
+}
+
+.fas {
+    color: black;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}

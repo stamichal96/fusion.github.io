@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400i,500,600,600i,700,700i&display=swap');
+
+@import "./nav.scss";
+@import "./menu.scss";
+@import "./main.scss";
+
+@import "./home-page.scss";
+@import "./products-page.scss";
+@import "./contact-page.scss";
+@import "./about-page.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    overflow: hidden;
+
+    button {
+        font-family: 'Exo 2', sans-serif;
+    }
+}
+
+.page {
+    height: 70vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    right: 0;
+    transition: 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

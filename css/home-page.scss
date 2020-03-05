@@ -1,0 +1,35 @@
+#text-section {
+    width: 100%;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    h1 {
+        font-size: 90px;
+        font-weight: 700;
+        font-style: italic;
+        background: -webkit-linear-gradient(#fff, #A5A5A5);
+        -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        font-style: italic;
+        color: #E0E0E0;
+    }
+
+    h3 {
+        font-size: 46px;
+        font-weight: 400;
+        font-style: italic;
+        color: #B7B7B7;
+    }
+}
+
+#text-section h1, #text-section h2, #text-section h3 {
+    line-height: 2em;
+}
+

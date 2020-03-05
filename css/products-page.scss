@@ -1,0 +1,45 @@
+#products {
+    position: absolute;
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#products .fusion-desc {
+    width: 17%;
+}
+
+#products .fusion-desc h1 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#products .fusion-desc .bar {
+    width: 250px;
+    height: 6px;
+    margin: .8em 0 3.5em;
+    transform: skewX(-40deg);
+}
+
+#products .fusion-desc .energy {
+    background: #4B8AC5;
+}
+
+#products .fusion-desc .impact {
+    background: #72C54B;
+}
+
+#products .fusion-desc p {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: .1em;
+}
+
+#energy-img {
+    transform: translateX(-50%);
+}
